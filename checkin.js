@@ -56,4 +56,4 @@ function checkin() {
   });
 }
 
-authenticate(grump_username, grump_password, checkin);
+authenticate('grump_username', 'grump_password', checkin);
