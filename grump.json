@@ -1,0 +1,17 @@
+{
+  "defaultCommand": "checkin",
+  "commands": {
+    "checkin": {
+      "scriptType": "phantomjs",
+      "scriptPath": "checkin.js",
+      "vars": {
+        "username": {
+          "persist": true
+        },
+        "password": {
+          "persist": false
+        }
+      }
+    }
+  }
+}
